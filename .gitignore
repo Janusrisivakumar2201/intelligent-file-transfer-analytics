@@ -1,0 +1,31 @@
+# Local dependencies
+node_modules/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+# Build output
+dist/
+build/
+
+# Python bytecode and caches
+**/__pycache__/
+**pycache**/
+*.py[cod]
+*.pyc
+
+# Local-only files
+*.sqlite3
+*.log
+*.tmp
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+/backend/export_test.csv
+.DS_Store
+Thumbs.db

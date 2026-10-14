@@ -1,0 +1,27 @@
+{
+  "regression": {
+    "mae": 45.0071,
+    "rmse": 69.2249,
+    "r2": 0.9114,
+    "model": "RandomForestRegressor"
+  },
+  "performance_classifier": {
+    "accuracy": 1.0,
+    "model": "RandomForestClassifier",
+    "classes": [
+      "Excellent",
+      "Good",
+      "Moderate",
+      "Poor"
+    ]
+  },
+  "risk_classifier": {
+    "accuracy": 1.0,
+    "model": "RandomForestClassifier",
+    "classes": [
+      "Low",
+      "Medium",
+      "High"
+    ]
+  }
+}
